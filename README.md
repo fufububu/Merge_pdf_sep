@@ -1,5 +1,5 @@
 # Merge_pdf_sep
-Merge a list of pdf files inserting a separator page  
+Merge a list of pdf files inserting separator pages/files  
 Its a front/end to iText bsed doMerge code (found on Internet and GitHub) to insert separator pages when merging pdf files.   
 Used to insert marker pages into piles of production printer printouts to separate print jobs  
 See [https://github.com/gios-asu/html-validator/blob/master/src/com/asu/gios/PDFMerge.java]
