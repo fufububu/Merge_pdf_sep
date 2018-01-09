@@ -31,11 +31,13 @@ If no "output filename" is given the merged filename will be the contatenation o
  
 ### Example
 Download merge_pdf_sep.jar and the contents of "sample" folder into your working/test directory.  
-The example has 4 pdf files with different number of pages we want to merge using the sequence  
-of pdf_list.txt fie and with a separator page each 2 files merged.  
-Below 
+This example has 4 pdf files, with different number of pages, we want to merge using the sequence  
+contained in file pdf_list.txt and with a separator page each 2 files merged.  
+The command will be:  
 java -jar Merge_pdf_sep.jar pdf_list.txt "Separator A4.pdf" 2  
 ![alt text](https://github.com/fufububu/merge_pdf_sep/blob/master/sample1.png)  
+will create an output file named *First_fileSecond_fileThird_file_Fourth_file.pdf*  
+If we want a different ooutput filename simply add last parameter, "merged" in this example  
 ![alt text](https://github.com/fufububu/merge_pdf_sep/blob/master/sample2.png)  
 
 
